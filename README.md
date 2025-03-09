@@ -1,6 +1,4 @@
-Here’s a detailed **README.md** file for your project:
 
-```md
 # Script2Sceen (Text-to-Image Generation) 
 
 This project utilizes the **Playground AI aesthetic model** (DeepFloyd IF) to generate high-quality images based on textual prompts. The model is integrated with the **Gradio** library to provide an interactive user interface for easy text-to-image generation.
