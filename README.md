@@ -6,10 +6,40 @@ This project utilizes the **Playground AI aesthetic model** (DeepFloyd IF) to ge
 The project is designed to run efficiently, utilizing GPU resources when available, and provides users with a seamless and intuitive way to create custom images based on their input.
 
 ## Features
-- **Text-to-Image Generation**: Generate high-quality images from text descriptions using the DeepFloyd IF model.
-- **Optimized for GPU**: The model uses mixed precision for better performance on compatible GPUs.
-- **Interactive Interface**: A simple and user-friendly interface powered by Gradio that allows users to input text and see the generated image.
-- **SafeTensors Support**: The model weights are loaded in SafeTensors format for better safety and performance.
+- Generate images from text prompts.
+- Use of the `playground-v2-1024px-aesthetic` model from Playground AI.
+- Gradio frontend for an interactive user interface.
+- Cloud deployment options for faster image generation (with GPU support).
+
+## Table of Contents
+- [System Requirements](#system-requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Model Details](#model-details)
+- [GPU & Cloud Setup](#gpu--cloud-setup)
+
+---
+
+## System Requirements
+
+### Minimum Requirements for Local Deployment:
+- **CPU**: 16GB of RAM (Recommended)
+- **GPU**: NVIDIA GPU with at least **6 GB VRAM** (Recommended for faster inference)
+- **Operating System**: Linux, Windows, or macOS
+- **Python Version**: 3.7 or higher
+
+### Cloud Deployment:
+- **Cloud Provider**: AWS, Google Cloud, or Azure (Recommended for GPU instances)
+- **GPU**: NVIDIA A100, V100, or Tesla P100 with **16 GB+ VRAM** for optimal performance
+- **CPU**: 16 Cores (for cloud machines)
+- **RAM**: 16 GB (Minimum)
+
+### Performance Notes:
+- On **CPU**, image generation will be slower. Reducing image resolution can improve performance.
+- **GPU** usage is highly recommended for faster image generation. You can deploy on **Google Colab**, **Hugging Face**, or **other cloud services** that offer GPUs.
+
+---
+
 
 ## Model Details
 - **Model Name**: Playground AI aesthetic model (`playgroundai/playground-v2-1024px-aesthetic`).
