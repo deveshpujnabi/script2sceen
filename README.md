@@ -149,8 +149,8 @@ project-name/
 ---
 ## Collaborators
 - Devesh Punjabi (Project Lead)
-- [Sugandhi Tikkha][(GitHub Profile Link)](https://github.com/Sugandhi30)
-- [Moazzama Tufail][(GitHub Profile Link)](https://github.com/Moazzama-Tufail)
+- [Sugandhi Tikkha] [GitHub Profile](https://github.com/Sugandhi30)
+- [Moazzama Tufail] [GitHub Profile](https://github.com/Moazzama-Tufail)
 ---
 ## License
 
