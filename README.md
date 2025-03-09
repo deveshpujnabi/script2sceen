@@ -24,8 +24,8 @@ Follow these steps to set up and run the project locally:
 Start by cloning this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/project-name.git
-cd project-name
+git clone https://github.com/deveshpujnabi/script2sceen.git
+cd script2sceen
 ```
 
 ### 2. Create and Activate a Virtual Environment (Recommended)
