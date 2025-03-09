@@ -166,4 +166,3 @@ Thank you for using this project!
 ---
 
 **Happy Image Generating!**
-```
