@@ -116,7 +116,7 @@ This will start the Gradio app and provide a local link (e.g., `http://127.0.0.1
 
 The project requires the following Python libraries:
 
-- Python 3.x
+- Python 3.7+
 - **PyTorch**: For running the deep learning model.
 - **Gradio**: For creating the web interface.
 - **Diffusers**: For working with Hugging Face diffusion models.
