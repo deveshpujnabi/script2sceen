@@ -11,13 +11,6 @@ The project is designed to run efficiently, utilizing GPU resources when availab
 - Gradio frontend for an interactive user interface.
 - Cloud deployment options for faster image generation (with GPU support).
 
-## Table of Contents
-- [System Requirements](#system-requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Details](#model-details)
-- [GPU & Cloud Setup](#gpu--cloud-setup)
-
 ---
 
 ## System Requirements
@@ -40,11 +33,36 @@ The project is designed to run efficiently, utilizing GPU resources when availab
 
 ---
 
-
 ## Model Details
-- **Model Name**: Playground AI aesthetic model (`playgroundai/playground-v2-1024px-aesthetic`).
-- **Pre-trained Model**: This project uses the pre-trained model from the **Hugging Face** model hub, specifically fine-tuned for aesthetic image generation.
-- **Optimized for GPU**: Mixed-precision and SafeTensors format are used to optimize model loading and performance on GPUs.
+
+The **playground-v2-1024px-aesthetic** model is a pre-trained text-to-image diffusion model that converts textual descriptions into images with high fidelity.
+
+**Model Information**:
+- Model ID: `playgroundai/playground-v2-1024px-aesthetic`
+- Model Size: ~2 GB
+- Resolution: 1024x1024 (Can be adjusted for faster performance)
+
+---
+
+## GPU & Cloud Setup
+
+### Using GPU for Faster Inference:
+To utilize a GPU, you can either:
+1. **Run Locally on a GPU**:
+   - Ensure you have a CUDA-enabled GPU (e.g., NVIDIA GTX 1080 Ti, RTX 3060, or higher).
+   - Install PyTorch with CUDA support (if not already installed).
+   - If you don’t have a GPU, follow the **CPU** instructions, but note that image generation will take significantly longer.
+
+2. **Cloud Deployment**:
+   - You can deploy the app to a cloud server with GPU support for better performance:
+     - **Google Cloud**: Use a VM with **NVIDIA Tesla T4, A100, or V100**.
+     - **AWS EC2**: Use GPU instances such as **p3.2xlarge** or **g4dn.xlarge**.
+     - **Azure**: Use GPU-powered VMs such as **NC-series**.
+
+   - Follow the respective cloud provider documentation to set up GPU-based instances and deploy the model for inference.
+
+---
+
 
 ## Setup Instructions
 
