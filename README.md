@@ -146,7 +146,12 @@ project-name/
 ├── .gitignore                  # Ignore unnecessary files (e.g., virtual environments, temporary files).
 └── LICENSE                     # Open-source license (e.g., MIT License).
 ```
-
+---
+## Collaborators
+- Devesh Punjabi (Project Lead)
+- [Collaborator 1 Name](GitHub Profile Link)
+- [Collaborator 2 Name](GitHub Profile Link)
+---
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
