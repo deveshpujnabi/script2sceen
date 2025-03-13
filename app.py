@@ -36,4 +36,4 @@ def generate_image_gradio(prompt):
         return output_image  # Return the generated image
 
 # Launch Gradio interface
-gr.Interface(fn=generate_image_gradio, inputs="text", outputs="image").launch()
+gr.Interface(fn=generate_image_gradio, inputs="text", outputs="image").launch(share=True)
